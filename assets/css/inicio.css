@@ -183,7 +183,10 @@ main{
     .logo h1 {
         font-size: 1.5rem;
     }
-    
+    .hero-content h1 {
+        font-size: 2.2rem;
+        letter-spacing: -0.5px;
+    }
     .subtitle {
         font-size: 0.85rem;
     }
@@ -377,18 +380,24 @@ main{
     box-shadow: 0 6px 20px rgba(107, 79, 212, 0.4);
 }
 
-/* Responsive */@media (max-width: 768px) {
+/* Responsive */
+@media (max-width: 768px) {
     .hero {
         flex-direction: column !important;  /* forzar override de Bootstrap */
         padding: 30px 15px;
         min-height: auto;
-        
     }
-
+    
+    .hero-content h1 {
+        font-size: 2.8rem;
+        letter-spacing: -1px;
+    }
+    
     .hero-content {
         flex: none;
         width: 100%;
         order: 1;           /* texto primero */
+        padding: 25px 20px;
     }
 
     .mi-carousel {
@@ -475,7 +484,7 @@ main{
     margin-bottom:40px;
 }
 
-/* Seccion Consultas */
+
 /* Seccion Consultas */
 .consultas {
     background: #1a1a1a;
@@ -780,33 +789,35 @@ main{
 
 .qs-foto-wrapper {
     position: relative;
-    height: 320px;
-    overflow: hidden;
+    height: auto;
+    overflow: visible;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0 0;
+    background: none;
 }
 
 .qs-foto-wrapper img {
-    width: 100%;
-    height: 100%;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
     object-fit: cover;
-    object-position: top;
+    object-position: center 10%;
+    border: 3px solid rgba(107, 79, 212, 0.3);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
     transition: transform 0.4s ease;
 }
 
 .qs-card:hover .qs-foto-wrapper img {
-    transform: scale(1.04);
+    transform: scale(1.05);
 }
 
 .qs-foto-overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 80px;
-    background: linear-gradient(transparent, rgba(255,255,255,0.9));
+    display: none;
 }
-
 .qs-info {
     padding: 28px 30px 32px;
+    text-align: center;
 }
 
 .qs-info h3 {
@@ -909,10 +920,6 @@ main{
         font-size: 2rem;
     }
 }
-/* =============================================
-   AGREGÁ ESTO AL FINAL DE TU inicio.css
-   ============================================= */
-
 
 /* ── SCROLL REVEAL GENERAL ─────────────────── */
 .reveal {

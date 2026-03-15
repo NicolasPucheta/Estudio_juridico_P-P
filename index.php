@@ -61,25 +61,34 @@ ini_set('display_errors', 1);
 
             <div class="qs-card">
                 <div class="qs-foto-wrapper">
-                    <img src="assets/img/foto1.jpg" alt="Dr. Marcelo F. Pucheta">
+                    <img src="assets\img\FotoDr_MarceloPucheta.jpg" 
+                         alt="Dr. Marcelo F. Pucheta">
                     <div class="qs-foto-overlay"></div>
                 </div>
                 <div class="qs-info">
                     <h3>Dr. Marcelo F. Pucheta</h3>
-                    <span class="qs-cargo">Abogado — Socio Fundador</span>
-                    <p>Especialista en Derecho Administrativo, Laboral y Previsional. Con más de 15 años de trayectoria, lidera el estudio con dedicación y profundo conocimiento del derecho público y privado.</p>
+                    <span class="qs-cargo">Abogado</span>
+                    <p>Especialista en Derecho Administrativo, Laboral y Previsional.
+                        Con más de 20 años de trayectoria, destacado por su
+                        dedicación y profundo conocimiento del derecho público y 
+                        privado.
+                    </p>
                 </div>
             </div>
 
             <div class="qs-card">
                 <div class="qs-foto-wrapper">
-                    <img src="assets/img/foto2.jpg" alt="Dra. Patricia V. Pucheta">
+                    <img src="assets/img/FotoDra_PatriciaPucheta.jpg" 
+                         alt="Dra. Patricia V. Pucheta">
                     <div class="qs-foto-overlay"></div>
                 </div>
                 <div class="qs-info">
                     <h3>Dra. Patricia V. Pucheta</h3>
-                    <span class="qs-cargo">Abogada — Socia</span>
-                    <p>Especialista en Derecho de Familia, Sucesiones y Derecho de la Salud. Reconocida por su sensibilidad y precisión técnica en causas que involucran el bienestar de las personas y las familias.</p>
+                    <span class="qs-cargo">Abogada</span>
+                    <p>Especialista en Derecho de Familia, Sucesiones y Derecho de la Salud.
+                         Con mas de 10 años de trayectoria reconocida por su sensibilidad y precisión técnica en causas que 
+                         involucran el bienestar de las personas y las familias.
+                    </p>
                 </div>
             </div>
 
@@ -88,7 +97,7 @@ ini_set('display_errors', 1);
         <!-- Contadores -->
         <div class="qs-contadores">
             <div class="qs-counter">
-                <span class="counter-number" data-target="15">0</span>
+                <span class="counter-number" data-target="20">0</span>
                 <span class="counter-plus">+</span>
                 <p>Años de experiencia</p>
             </div>

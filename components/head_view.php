@@ -6,7 +6,7 @@
     <title>Pucheta & Pucheta Asociados</title>
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/inicio.css"> 
-    <link rel="icon" type="image/png" href="assets/img/logo.png">  
+    <link rel="icon" type="image/png" href="assets/img/logo.jpg">  
 </head>
 <body>
     <header class="header">
