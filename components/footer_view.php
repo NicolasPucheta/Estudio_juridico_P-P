@@ -29,10 +29,6 @@
 
 </footer>
 
-<script src="assets/js/carrusel.js"></script>
-<script src="assets/js/head_navbar.js"></script>
-<script src="assets/js/consulta_whatsapp.js"></script>
-<script src="assets/js/efectos.js"></script>
-<script src="assets/js/reveal_toast.js"></script>
+<script src="assets/js/principal.js"></script>
 </body>
 </html>
